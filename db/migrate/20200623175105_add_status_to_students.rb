@@ -1,5 +1,5 @@
 class AddStatusToStudents < ActiveRecord::Migration[5.0]
   def change
-    add_column :students, :status, :boolean 
+    add_column :students, :status, :boolean => false
   end
 end
